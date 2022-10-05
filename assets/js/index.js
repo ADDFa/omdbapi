@@ -2,9 +2,9 @@
 const el = element => document.querySelector(`${element}`)
 const elAll = elements => document.querySelector(`${elements}`)
 
-// // // // // // // // // // // // // // // // // // // //
 const xhr = new XMLHttpRequest
 
+// // // // // // // // // // // // // // // // // // // //
 const setFilm = data => {
     const film = JSON.parse(data).Search
 
